@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>MSBuild.Npm</id>
+    <version>0.4.4</version>
+    <title>MSBuild.Npm</title>
+    <authors>Kevin Mees</authors>
+    <owners>Kevin Mees</owners>
+    <licenseUrl>https://raw.githubusercontent.com/kmees/MSBuild.NodeTools/master/LICENSE</licenseUrl>
+    <projectUrl>http://github.com/kmees/MSBuild.NodeTools</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Run a npm command as a MSBuild task</description>
+    <tags>Npm MSBuild</tags>
+    <dependencies>
+      <dependency id="MSBuild.Node" version="[0.4.4, 1.0.0]" />
+    </dependencies>
+  </metadata>
+</package>

@@ -36,6 +36,12 @@ app.post('/contatos', function (req, res) {
     res.json(true);
 });
 
+app.post('/removeContato', function (req, res) {
+    contatos.splice(req.body, 1);
+    res.json(true);
+});
+
+
 app.get('/operadoras', function (req, res) {
     res.json(operadoras);
 });
